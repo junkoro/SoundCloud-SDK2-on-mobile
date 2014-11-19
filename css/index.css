@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+}
+
+input[type=text] {
+  -webkit-user-select: auto;
+}
+
+div.scroller {
+  -webkit-overflow-scrolling: touch;
+}
+
+div.scroller > * {
+  -webkit-transform: translateZ(0px);
+}
