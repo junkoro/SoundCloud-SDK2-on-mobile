@@ -17,8 +17,7 @@ app.controller("AppCtrl", function ($scope) {
   $scope.hammer = new Hammer(document.body);
 
   // init SoundCloud SDK2
-  //SC.initialize({client_id: "YOUR CLIENT ID"});
-  SC.initialize({client_id: "79521a4010eb15e72d5300885356a661"});
+  SC.initialize({client_id: "YOUR CLIENT ID"});
 
 
 
@@ -81,8 +80,8 @@ app.controller("AppCtrl", function ($scope) {
    */
   $scope.onClickBtnLoad1 = function(evt) {
     console.log("onClickBtnLoad1()");
-    //$scope.mediaid = "116811535"; // BabyMetal - Megitsune
-    $scope.mediaid = "119636394";
+    $scope.mediaid = "116811535"; // BabyMetal - Megitsune
+    //$scope.mediaid = "119636394";
     $scope.loadMedia();
   };
 
@@ -92,8 +91,8 @@ app.controller("AppCtrl", function ($scope) {
    */
   $scope.onClickBtnLoad2 = function(evt) {
     console.log("onClickBtnLoad2()");
-    //$scope.mediaid = "116810159"; // BabyMetal - Headbangeeeeerrrrr !!!!!
-    $scope.mediaid = "20103435"; // Ferraz - 1977 （playlist） https://soundcloud.com/hotitv/sets/ferraz-1977
+    $scope.mediaid = "116810159"; // BabyMetal - Headbangeeeeerrrrr !!!!!
+    //$scope.mediaid = "20103435"; // Ferraz - 1977 （playlist） https://soundcloud.com/hotitv/sets/ferraz-1977
     $scope.loadMedia();
   };
 
